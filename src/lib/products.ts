@@ -7,12 +7,15 @@ export type Product = {
   description: string;
 };
 
+const PEXELS = "https://images.pexels.com/photos";
+const CARD = "?auto=compress&cs=tinysrgb&fit=crop&w=720&h=800";
+
 export const products: Product[] = [
   {
     id: "everyday-hoops",
     title: "Everyday Huggies",
     category: "Earrings",
-    image: "/images/hoops.jpg",
+    image: `${PEXELS}/28389455/pexels-photo-28389455.jpeg${CARD}`,
     alt: "Sculptural gold huggie hoops on a sunlit travertine display",
     description: "A little golden detail for every day.",
   },
@@ -20,7 +23,7 @@ export const products: Product[] = [
     id: "dewdrop-necklace",
     title: "Dewdrop Pendant",
     category: "Necklaces",
-    image: "/images/necklace.jpg",
+    image: `${PEXELS}/29193427/pexels-photo-29193427.jpeg${CARD}`,
     alt: "Fine gold chain necklace with an organic oval charm",
     description: "An easy layer, finished with a tiny golden charm.",
   },
@@ -28,7 +31,7 @@ export const products: Product[] = [
     id: "sol-chain-bracelet",
     title: "Sol Chain Bracelet",
     category: "Bracelets",
-    image: "/images/bracelet.jpg",
+    image: `${PEXELS}/30746010/pexels-photo-30746010.jpeg${CARD}`,
     alt: "Delicate gold chain bracelet arranged in a loop on ivory ceramic",
     description: "A subtle shimmer that goes with everything.",
   },
@@ -36,7 +39,7 @@ export const products: Product[] = [
     id: "stacking-rings",
     title: "Golden Hour Stacking Rings",
     category: "Rings",
-    image: "/images/ring.jpg",
+    image: `${PEXELS}/30746011/pexels-photo-30746011.jpeg${CARD}`,
     alt: "Two minimal gold stacking rings on pale travertine",
     description: "Wear one on its own or stack them your way.",
   },

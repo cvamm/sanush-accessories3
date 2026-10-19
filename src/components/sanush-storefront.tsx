@@ -201,7 +201,7 @@ export default function SanushStorefront() {
           </div>
           <div className="hero-visual">
             <Image
-              src="/images/sanush-hero.jpg"
+              src="https://images.pexels.com/photos/4155246/pexels-photo-4155246.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=1500"
               alt="Warm editorial portrait wearing delicate everyday gold necklaces and hoops"
               fill
               priority
@@ -258,7 +258,7 @@ export default function SanushStorefront() {
         <section className="story-section section-shell" id="story">
           <div className="story-visual">
             <Image
-              src="/images/bracelet.jpg"
+              src="https://images.pexels.com/photos/9634675/pexels-photo-9634675.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=1500"
               alt="Delicate gold bracelet on a softly lit ivory ceramic dish"
               fill
               sizes="(max-width: 760px) 90vw, 45vw"
