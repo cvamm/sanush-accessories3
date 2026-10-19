@@ -1,11 +1,5 @@
 import SanushStorefront from "@/components/sanush-storefront";
-import { db } from "@/db";
-import { sql } from "drizzle-orm";
 
-export const dynamic = "force-dynamic";
-
-export default async function HomePage() {
-  await db.execute(sql`select 1`);
-
+export default function HomePage() {
   return <SanushStorefront />;
 }
